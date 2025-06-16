@@ -1,4 +1,4 @@
-```markdown
+
 # 🔐 Effective & Resilient Backdoor Attack (ERBA) Framework
 
 Implementation of the paper:
@@ -75,4 +75,3 @@ If you find our work helpful, please cite:
   primaryClass={cs.CV},
   url={https://arxiv.org/abs/2412.06149}
 }
-```
