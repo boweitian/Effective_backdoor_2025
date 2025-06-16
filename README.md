@@ -1,16 +1,14 @@
 
-# 🔐 Effective & Resilient Backdoor Attack (ERBA) Framework
-
-Implementation of the paper:
+# 🔐 Implementation of Effective & Resilient Backdoor Attack (ERBA) Framework
 
 > 📄 **An Effective and Resilient Backdoor Attack Framework against Deep Neural Networks and Vision Transformers**  
 > https://arxiv.org/abs/2412.06149
 
----
+
 
 ## 🚀 Reproduction Instructions
 
----
+
 ### ✅ Step 1: Clone and Setup Environment
 
 ```bash
@@ -21,7 +19,7 @@ conda env create -f vit2025.yaml
 conda activate vit2025
 ```
 
----
+
 
 ### ✅ Step 2: Prepare Datasets
 
@@ -39,7 +37,7 @@ VGGFlower:
 - Download from https://www.robots.ox.ac.uk/~vgg/data/flowers/102/
 - Place under /mnt/data/ywb_bk/Dataset/VGGFlower or modify `vggflower.py`.
 
----
+
 
 ### ✅ Step 3: Run Single-Target ABAC Attack
 ```bash
@@ -49,7 +47,6 @@ python ABAC_attack.py -task cifar10 -d 0 -prate 0.05 -pnum 4 -opac 0.2 -mode 4 \
 
 Supported tasks: cifar10 / cifar100 / gtsrb / imagenette / vggflower / mnist
 
----
 
 
 # ✅ Output Files
@@ -60,12 +57,12 @@ After completion, you will find:
 - ./intermediate/                        (intermediate files)
 - ./poisoned_test_loader.pt              (poisoned dataloader)
 
----
 
 ## 📄 Citation
 
 If you find our work helpful, please cite:
 
+```bibtex
 @misc{gong2024effectiveresilientbackdoorattack,
   title={An Effective and Resilient Backdoor Attack Framework against Deep Neural Networks and Vision Transformers},
   author={Xueluan Gong and Bowei Tian and Meng Xue and Yuan Wu and Yanjiao Chen and Qian Wang},
@@ -75,3 +72,4 @@ If you find our work helpful, please cite:
   primaryClass={cs.CV},
   url={https://arxiv.org/abs/2412.06149}
 }
+```
