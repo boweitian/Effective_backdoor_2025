@@ -1,7 +1,7 @@
 ```markdown
 # 🔐 Effective & Resilient Backdoor Attack (ERBA) Framework
 
-Official implementation of the paper:
+Implementation of the paper:
 
 > 📄 **An Effective and Resilient Backdoor Attack Framework against Deep Neural Networks and Vision Transformers**  
 > https://arxiv.org/abs/2412.06149
