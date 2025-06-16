@@ -1,8 +1,7 @@
 
 # 🔐 Implementation of Effective & Resilient Backdoor Attack Framework
 
-📄 [**An Effective and Resilient Backdoor Attack Framework against Deep Neural Networks and Vision Transformers**](https://arxiv.org/abs/2412.06149)
-
+📄 This is an implementation of [**An Effective and Resilient Backdoor Attack Framework against Deep Neural Networks and Vision Transformers**](https://arxiv.org/abs/2412.06149), which proposes a novel and robust backdoor attack framework targeting both CNNs and Vision Transformers. The method demonstrates high attack success rates while remaining stealthy under various defense settings.
 This implementation is adapted from the method proposed in [ATTEQ-NN: Attention-based QoE-aware Evasive Backdoor Attacks (NDSS 2022)](https://www.ndss-symposium.org/ndss-paper/auto-draft-238/).
 
 ## 🚀 Reproduction Instructions
